@@ -1,0 +1,770 @@
+/* ###########################################
+				GENERALL CSS
+############################################*/
+
+
+#container {
+	width: 100%;
+	max-width: 70em;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+ }
+
+/* ###########################################
+				TOP NAV CSS
+############################################*/
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #252525;
+	color: white;
+	z-index: 50;
+}
+
+.logo {
+	margin-left: 3%;
+	width: 10%;
+	float: left;
+}
+
+nav h1 {
+	width: 14%;
+	float: left;
+	font-size: 1.1em;
+	margin-top: 1em;
+	color: white;
+}
+
+nav h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+	width: 60%;
+	float: left;
+	text-decoration: none;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul li a{
+	color: white;
+  	text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+    display: block;
+    border-right: 0.0625em solid white;
+    border-left: 0.0625em solid white;
+	}
+
+nav ul li a:hover {
+	background: #E97557;
+	text-decoration: underline;
+}
+
+
+nav h3 {
+	background: #5A929F;
+	width: 10%;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	margin-left: 2%;
+}
+
+nav h3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+}
+
+nav h3:hover {
+	background: #E97557;
+}
+
+nav:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/* ###########################################
+				HEADER CSS
+############################################*/
+
+header {
+	width: 100%;
+	height: 20em;
+	margin: 3.5em 0 1em 0;
+	background: url(../images/lake-wanaka.jpg) no-repeat center top;
+	background-size: 100%;
+	border-top: 0.3em solid #E97557;
+}
+
+#ban_wrapper {
+	background: black;
+	opacity: 0.6;
+	color: white;
+	width: 70%;
+	text-align: center;
+	margin: 5em auto;
+	line-height: 2em;
+}
+
+/*#ban_wrapper h3 {
+	font-size: 1em;
+}*/
+
+
+#ban_wrapper a {
+	width: 70%;
+	margin: 0 auto;
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	background: #E97557;
+}
+
+#ban_wrapper a:hover {
+	background: #5A929F;
+}
+
+/* ###########################################
+				WHO WE ARE
+############################################*/
+
+main {
+	width: 95%;
+	margin: 0 auto;
+	border: 0.1em solid #D5D5D5;
+	margin-bottom: 1%;
+	padding-top: 1em;
+}
+
+main h2 {
+	text-align: center;
+	font-size: 3em;
+}
+
+main h3 {
+	text-align: center;
+}
+
+#welcome {
+	width: 50%;
+	float: left;
+	text-align: justify;
+	border: 0.1em solid #D5D5D5;
+	padding: 0 2%;
+} 
+
+main img {
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+
+
+#staff {
+	width: 100%;
+	float: left;
+}
+
+#staff ul {
+	margin: 2% 2.5%;
+	float: left;	
+	width: 95%;
+	padding: 0;
+}
+
+#staff ul li {
+	list-style: none;
+	float: left;
+    width: 25%;
+}
+
+
+#staff ul li h3 {
+	width: 80%;
+	text-align: center;
+	border-bottom: 0.3em solid #E97557;
+	margin: 0 auto;
+}
+
+#staff ul li img {
+	margin: 0 6.5%;
+	width: 85%;
+}
+
+
+#button1 {
+
+	width: 100%;
+	float: left;
+	margin-bottom: 1%;
+}
+
+#button1 h2 {
+	background: #E97557;
+	font-size: 2em;
+	color: white;
+	cursor: pointer;
+	width: 30%;
+	margin: 0 auto;
+}
+
+#button1 h2:hover {
+	background: #5A929F;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/* ###########################################
+				AD / BANNER
+############################################*/
+#ad {
+	float: left;
+	width: 100%;
+	background: #262626;
+	margin-bottom: 2%;
+}
+
+#logo {
+	width: 15%;
+	margin: 1% 2%;
+	float: left;
+}
+
+#ad h2 {
+	float: left;
+	width: 55%;
+	color: #E97557;
+	font-size: 2em;
+	border: 0.04em solid black;
+}
+
+#green {
+	color: #5A929F;
+}
+
+#ad h3 {
+	background: #5A929F;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: 5% 0 0% 2%;
+}
+
+#ad h3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#ad h3 a:hover {
+	background: #E97557;
+}
+
+#ad:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/* ###########################################
+				WHAT WE DO BANNER
+############################################*/
+
+#wwd {
+	float; left;
+	width: 100%;
+	background: url(../images/background1.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+#wwd h2 {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+}
+
+#list {
+	width: 100%;
+	float: left;
+}
+
+#list ul {
+	float: left;	
+	width: 100%;
+	padding: 0;
+}
+
+#list ul li {
+	list-style: none;
+	float: left;
+    width: 22.00%;
+    border: 0.1em solid #D5D5D5;
+    margin-left: 2%;
+    text-align: center;
+}
+
+#list ul li h3 {
+	width: 70%;
+	text-align: center;
+	color: white;
+	border-bottom: 0.3em solid #E97557;
+	margin: 0 auto;
+}
+
+#list ul li img {
+	width: 90%;
+}
+
+#list ul li p {
+	text-align: center;
+	color: white;
+}
+
+#list ul li p span {
+	color: black;
+}
+
+#list ul li h4 {
+	width: 70%;
+	margin: 1em auto;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	background: #E97557;
+	cursor: pointer;
+}
+
+#list ul li h4:hover {
+	color: black;
+}
+
+#wwd:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/* ###########################################
+				   GALLERY
+############################################*/
+
+#gallerywrapper {
+	width: 100%;
+	padding-top: 1em;
+}
+
+#gallery {
+	float: left;
+	width: 95%;
+	margin: 1% 2.5%;
+	border: 0.1em solid #D5D5D5;
+}
+
+#gallery h2 {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 36pt;
+}
+
+#backwards {
+	width: 5%;
+	height: 20%;
+	float: left;
+	font-size: 100pt;
+	color: #E97557;
+	text-align: center;
+	
+}
+
+#forwards {
+	width: 5%;
+	height: 20%;
+	float: right;
+	font-size: 100pt;
+	color: #E97557;
+	text-align: center;
+}
+
+#stripwrapper {
+	width: 100%;
+	float: left;
+}
+
+#bottom_strip {
+	float: left;
+	width: 90%;
+	background: #5A929F;
+	margin: 0 5%;
+}
+
+#bottom_strip img {
+	/*height: 87%;*/
+	width: 150px;
+	margin: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#youtubewrapper {
+	margin-top: 2%;
+	float: left;
+	width: 100%;
+	border-top: 0.3em solid #E97557;
+}
+
+.youtube {
+	float: left;
+	margin: 1% 1%;
+}
+
+#gallerywrapper:after {
+    content: "";
+    display: table;
+    clear: both; 
+} 
+
+/* ###########################################
+				   CONTACT
+############################################*/
+
+footer {
+	background: #262626;
+}
+
+footer h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 36pt;
+	color: white;
+	padding-top: 2%;
+	margin: 0;
+}
+
+footer h3 {
+	color: white;
+}
+
+#left {
+	width: 28%;
+	float: left;
+	text-align: center;
+	margin: 0 2.5%;
+}
+
+#left div {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#middle {
+	width: 28%;
+	float: left;
+	text-align: center;
+	margin: 0 2.5%;
+}
+
+#middle h3 {
+	background: #5A929F;
+	width: 100%;
+	text-align: center;
+	margin: 5% auto;
+}
+
+#middle h3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+}
+
+#middle h3:hover {
+	background: #E97557;
+}
+
+#middle h4 {
+	color: white;
+	font-size: 1.2em;
+}
+
+#middle h4 a {
+	text-decoration: none;
+	color: white;
+}
+
+#middle h4 a:hover {
+	background: #E97557;
+}
+
+#middle input[type="email"] {
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+#middle input[type="submit"] {
+	width: 40%;
+	background: #E97557;
+	text-align: center;
+	font-size: 1em;
+}
+
+#right {
+	width: 28%;
+	float: left;
+	text-align: center;
+	margin: 0 2.5%;
+}
+
+#right div {
+	margin: 0 auto;
+}
+
+footer:after {
+    content: "";
+    display: table;
+    clear: both; 
+} 
+
+/* ###########################################
+				   OVERLAY
+############################################*/
+
+#overlay {
+	position: fixed;
+	width: 100%;
+	background: #262626;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 60;
+}
+
+#content {
+	background: white;
+	display: none;
+	text-align: center;
+	width: 60%;
+	position: fixed;
+	left: 10%;
+	top: 10%;
+	padding: 3em 10%;
+	z-index: 70;
+}
+
+#close {
+	width: 22%;
+	margin: 0 auto;
+	background: #E97557;
+	border: 0.1em solid black;
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	cursor: pointer;
+	z-index: 80;
+}
+
+/* ###########################################
+				   FORM HEADER CSS
+############################################*/
+
+#form_header {
+	width: 100%;
+	height: 20em;
+	margin: 3.5em 0 1em 0;
+	background: url(../images/lake-wanaka.jpg) no-repeat center top;
+	background-size: 100%;
+	border-top: 0.3em solid #E97557;
+}
+
+#banner1 {
+	width: 60%;
+	text-align: center;
+	margin: 5em auto;
+	line-height: 2em;
+}
+
+#banner1 h3 {
+	background: #E97557;
+	opacity: 0.8;
+	color: white;
+	line-height: 2em;
+	font-size: 3em;
+}
+
+/* ###########################################
+				   FORM CSS
+############################################*/
+
+form {
+	width: 95%;
+	margin: 1% auto;
+	border: 0.1em solid #D5D5D5;
+	margin-bottom: 1%;
+	text-align: left;
+}
+
+form h2 {
+	text-align: center;
+	font-size: 3em;
+}
+
+form h3 {
+	text-align: center;
+}
+
+fieldset {
+	width: 95%;
+	margin: 1% auto;
+}
+
+#booking {
+	background: #5A929F;
+	opacity: 0.8;
+}
+
+label {
+	font-weight: bold;
+	font-size: 1em;
+	display: inline-block;
+	width: 20%;
+}
+
+#note {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#next {
+	width: 30%;
+	margin: 1% auto;
+	text-align: center;
+	background: #E97557;
+	color: white;
+	font-size: 1.3em;
+}
+
+#next:hover {
+	background: #5A929F;
+	cursor: pointer;
+}
+
+input {
+	text-align: left;
+	font-size: 1em;
+	margin: 1%;
+	width: 50%;
+	font-weight: bolder;
+}
+
+input[type="radio"] {
+	width: 2%;
+}
+
+input[type="checkbox"] {
+	width: 2%;
+}
+
+input[type="checkbox"] + label{
+	width: 60%;
+	font-size: 1em;
+}
+
+
+input[type="radio"] + label {
+	font-size: 1em;
+	width: 11%;
+	text-align: left;
+	margin: 0;
+}
+
+input[type="date"] {
+	text-align: left;
+	font-size: 1em;
+	margin: 1%;
+	width: 22%;
+	font-weight: bolder;
+}
+
+#send_btn {
+	width: 30%;
+	margin: 1em auto;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	background: #E97557;
+	cursor: pointer;
+}
+
+#send_btn:hover {
+	color: black;
+}
+
+.hidden {
+	display: none;
+}
+
+#prg_wrapper {
+	margin: 0 auto;
+	width: 80%;
+	background: white;
+	color: white;
+}
+
+#bar {
+	float: left;
+	width: 12.45%;
+	background: green;
+	color: green;
+}
+
+.success {
+	color: white;
+	font-size: 1em;
+}
+
+.fail {
+	color: #E97557;
+	font-size: 0.8em;
+}
+
+.progress {
+	width: 30%;
+	margin: 1% auto;
+	text-align: center;
+	background: #5A929F;
+	color: white;
+	font-size: 1.3em;
+}
