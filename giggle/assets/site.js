@@ -6,6 +6,10 @@ window.onload = function() // these functions will execute when page is loaded
 	{
 		loginForm = document.getElementById("loginForm");
 		registerForm = document.getElementById("registerForm");
+
+		// set the default value
+		document.getElementById("userLogin").value = 'John';
+		document.getElementById("userPassword").value = 'test';
 		
 		if(document.getElementById("loginFormError")) // if the login fails show the login Form again 
 		{

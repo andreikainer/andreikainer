@@ -1,5 +1,4 @@
 <?php
-<?php
 define("HOST", "mysql5.openhost.net.nz");
 define("USER_NAME", "dreig_andrei");
 define("PASSWORD", "yoobee2015!$");

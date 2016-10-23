@@ -1,4 +1,3 @@
-;<?php return; ?>
 [SQL]
 host = mysql5.openhost.net.nz
 user = dreig_andrei
